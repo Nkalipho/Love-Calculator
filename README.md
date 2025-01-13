@@ -1,84 +1,50 @@
 # Love Calculator
 
-A simple and fun **Love Calculator** web application built using **HTML**, **CSS**, and **JavaScript**. This application is inspired by a classic primary school activity and allows users to calculate their "love compatibility" in an interactive way.
-
----
+This is a fun project that emulates the love calculators popular during school days. Users can input two names and their star signs to calculate their "love match." The project is built using HTML, CSS, and JavaScript.
 
 ## Features
+- Enter names and star signs for two individuals.
+- Calculates a "love match" percentage.
+- Displays a styled modal with the result.
+- Responsive and visually appealing design.
 
-- **Interactive User Interface**: 
-  - Input fields for both partner names.
-  - Dropdown menus to select zodiac/star signs for each partner.
-- **Real-time Compatibility Calculation**: 
-  - Calculates a "love match percentage" based on the names and zodiac signs.
-  - Displays the result with an animated modal showing compatibility percentage and a personalized message.
-- **Responsive Design**: 
-  - Beautifully styled UI with a heart-themed background.
-  - Works on desktops, tablets, and mobile devices.
-
----
-
-## How to Use
-
-1. Clone or download the project files.
-2. Open the `Home.html` file in your browser.
-3. Input the following details:
-   - First Partner's Name
-   - First Partner's Star Sign
-   - Second Partner's Name
-   - Second Partner's Star Sign
-4. Click on the `Calculate Love Match!` button.
-5. View the love compatibility percentage and a personalized message in the modal.
-
----
-
-## Screenshots
-
-### Input Screen:
-![Input Screen](./Screenshot%20from%202024-11-20%2016-00-21.png)
-
-### Results Modal:
-![Results Modal](./Screenshot%20from%202024-11-20%2016-00-09.png)
-
----
-
-## Technologies Used
-
-- **HTML5**: Structuring the web application.
-- **CSS3**: Styling the application, including the background, buttons, and modal.
-- **JavaScript**: Implementing interactivity and love compatibility calculations.
-
----
-
-## Project Structure
+## File Structure
 ```
 LoveCalculator/
-├── Home.html       # Main HTML file
-├── styles.css      # CSS file for styling
-├── script.js       # JavaScript file for functionality
-├── README.md       # Documentation
-└── assets/         # Folder for images and other assets
+├── home.html        # Main HTML file
+├── home.js           # JavaScript functionality
+└── assets/           # Contains images
+    ├── screenshot1.png
+    └── screenshot2.png
 ```
 
----
+## How to Run
+1. Clone or download this repository.
+2. Ensure all files are in the same directory.
+3. Open `home.html` in your browser.
 
-## Future Improvements
+## Screenshots
+Below are screenshots of the Love Calculator:
 
-- Add additional compatibility factors, such as personality traits or numerology.
-- Enhance the UI with more animations and visual elements.
-- Save results locally to allow users to view previous calculations.
-- Implement a share feature to post results on social media.
+### Input Page
+![Input Page](assets/screenshot1.png)
 
----
+### Result Page
+![Result Page](assets/screenshot2.png)
+
+## History and Inspiration
+The inspiration for this project comes from the playful love calculators we used in primary school to check "compatibility" with friends or crushes. This project aims to recreate that nostalgic experience using modern web technologies while adding a fun and interactive twist to it. It combines humor and creativity to bring back childhood memories.
 
 ## How It Works
+1. User enters the names and star signs in the input fields.
+2. Clicking the "Calculate Love Match!" button triggers the JavaScript function to compute the result.
+3. The result is displayed in a styled modal with the match percentage and a short message.
 
-The compatibility percentage is calculated using a fun and random algorithm combining names and zodiac signs. The algorithm ensures entertaining and varied results every time.
 
----
+## Future Improvements
+- Add more detailed compatibility logic based on star signs.
+- Enhance the UI with animations.
+- Allow users to share results on social media.
 
-## Author
-
-**[Your Name]**  
-Contact: [Your Email Address]  
-GitHub: [Your GitHub Profile Link]
+## Credits
+Built with ❤️ by Mthobisi Latha.
